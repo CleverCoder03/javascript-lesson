@@ -22,3 +22,5 @@ testLet()
 
 
 //But while using let keyword it throws error saying "Cannot access 'x' before initialization" 
+
+//THIS HAPPENS BECAUSE LET VALUES ARE NOT HOISTED AT THE BEGINNING OF THE FUNCTION
