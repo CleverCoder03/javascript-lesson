@@ -43,6 +43,15 @@
 // | `<=`     | Less than or equal    | Checks if left ≤ right                               | `4 <= 3`    | `false` |
 
 
+//Logical Operators
+
+// | Operator | Name        | Description                                            |
+// | -------- | ----------- | ------------------------------------------------------ |
+// | `&&`     | Logical AND | Returns `true` if **both** operands are true           |
+// | `||`     | Logical OR  | Returns `true` if **at least one** operands is true    | 
+// | `!`      | Logical NOT | **Inverts** the boolean value                          |
+
+
 //Ternary Operator (Conditional Operator)
 
 // condition ? value_if_true : value_if_false;
@@ -50,4 +59,3 @@
 let age = 20;
 let status = (age >= 18) ? "Adult" : "Minor";
 console.log(status); // Output: Adult
-
